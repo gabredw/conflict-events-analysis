@@ -27,7 +27,11 @@ Finally I grouped each of these DataFrames by year, totaling the number of event
 
 With the cleaned data I was able to create three bar graphs, two pie charts, and a density map, shown as follows:
 
+{% include_relative pv-bar.html %}
 
+{% include_relative pv-map.html %}
+
+{% include_relative pv-pie.html %}
 
 
 
