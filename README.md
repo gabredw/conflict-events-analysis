@@ -29,7 +29,7 @@ With the cleaned data I was able to create three bar graphs, two pie charts, and
 
 {% include_relative pv_bar.html %}
 
-<iframe src="https://drive.google.com/file/d/1Mufgg2hBsLdWP7pkOWj-aPzCSUqAelKm/view?usp=sharing" </iframe>
+<iframe src="https://drive.google.com/file/d/1Mufgg2hBsLdWP7pkOWj-aPzCSUqAelKm/view?usp=sharing"> </iframe>
 
 {% include_relative pv-pie.html %}
 
