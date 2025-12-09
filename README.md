@@ -22,5 +22,12 @@ The data includes four columns of actors: actor 1, associate actor 1, actor 2, a
 After that, I began the process of filtering for relevant information. I started by filtering for rows that include both an Israeli and a Palestinian party to ensure that the data reflects interactions between Israeli and Palestinian actors. Next I filtered the data to only include sub-event types coded as Political Violence. Political Violence in the ACLED Codebook is defined as a single altercation defined by “the use of force by a group with a political purpose/motivation, or with distinct political effects,” and includes the following broad event types: battles, excessive force against protestors, explosions/remote violence, and violence against civilians.
 
 I created separate DataFrames for events taking place in the country of Israel and the country of Palestine. I then also made separate Dataframes for events taking place in the West Bank and the Gaza Strip (the two territories within Palestine). I did so because I wanted to do a comparison of Israel and Palestine as a whole, but given the differences between the types of events that occur in the West Bank and in Gaza, I also wanted to compare each with Israel individually. This necessitated the separate DataFrames, as Palestine and Israel are listed under the ‘country’ column, while the West Bank and Gaza Strip are listed in the ‘admin1’ column.
+
 Finally I grouped each of these DataFrames by year, totaling the number of events in the DataFrame, concatenated each of the non-Israel GroupBy’s with the Israel GroupBy, and pivoted each of the concatenations.
-With the cleaned data I was able to create three bar graphs, two pie charts, and a density map, shown on the following pages.
+
+With the cleaned data I was able to create three bar graphs, two pie charts, and a density map, shown as follows:
+
+
+
+
+
