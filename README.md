@@ -35,14 +35,14 @@ With the cleaned data I was able to create three bar graphs, two pie charts, and
 </figure>
 
 <figure>
-  {% include_relative pv_map.html %}
+  {% include_relative pv-map.html %}
   <figcaption style="text-align:center; font-style:italic;">
     Figure 2: The distribution of political violence events between the West Bank, the Gaza Strip, and Israel, as a density map. Political violence events are clearly concentrated in the West Bank and the Gaza Strip, with relatively few events taking place in Israeli territory.
   </figcaption>
 </figure>
 
 <figure>
-  {% include_relative pv_pie.html %}
+  {% include_relative pv-pie.html %}
   <figcaption style="text-align:center; font-style:italic;">
     Figure 3: Distribution of types of political violence that occur in the West Bank and in Gaza.
   </figcaption>
