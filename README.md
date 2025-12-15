@@ -1,4 +1,4 @@
-Gabrielle Edwards
+Gabrielle Edwards <br>
 Wol Bol Wol Majok
 
 [Python File](political_violence.py)
